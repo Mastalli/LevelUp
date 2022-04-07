@@ -131,15 +131,7 @@ width: auto;
     animation-iteration-count: initial;
     animation-timing-function: linear;
 }
-@keyframe fade{
-    0%{opacity: 100%;
-    }
-    50% {opacity: 50%;
-        width: 200px
-    }
-    100% {opacity: 0%;
-    }
-}
+
 
 
 
@@ -183,6 +175,12 @@ width: auto;
 }
 .gallery img{
     width: 100%;
+    filter: grayscale(100%);
+    transition: all 1s;
+}
+.gallery img:hover{
+    filter: none;
+    transform: scale(1.1);
 }
 .row{
     display: flex;
@@ -331,15 +329,6 @@ width: auto;
         grid-area: semen2; }
     .hellcat-money { 
         grid-area: hellcat-money; }
+    }
 
-
-        /* animation */
-
-/* .socialMedia{
-    animation: forwards;
-    animation-name: fade-in;
-    animation-duration: 2s;
-    animation-iteration-count: once;
-    animation-timing-function: ease-in;
-} */
 
