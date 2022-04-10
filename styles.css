@@ -19,6 +19,7 @@
 }
 .menu li a{
     text-decoration: none;
+    font-family: 'Cinzel', serif;
     color: black;
     font-size: 30px;
     padding: 20px;
@@ -69,33 +70,37 @@ width: auto;
 
 .blogMedia{
     color: black;
-    margin-top: 15px;
-    margin-bottom: 30px;
+/*     margin-top: 15px;
+    margin-bottom: 30px; */
     padding: 10px 150px;
     font-size: 25px;
     text-align: center;
 }
-
-.logoInsta{
+.socialMedia img{
+    width: 80px;
+    height: 80px;
+    
+}
+/* .logoInsta{
     grid-area: logoInsta; 
 }
 
 .logoInsta img{
     height: 100px;
     width: 100px;
-}
+} */
 .logoInsta :hover{
     background: #7a7a7a;
 }
-
+/* 
 
 .logoTik{
     grid-area: logoTik;
-}
-.logoTik a:hover{
+} */
+.logoTik :hover{
     background: #7a7a7a;
 }
-
+/* 
 .logoTik img{
     height: 100px;
     width: 100px;
@@ -108,7 +113,7 @@ width: auto;
 .logoYou img{
     height: 100px;
     width: 100px;
-}
+} */
 .logoYou :hover{
     background: #7a7a7a;
 }
@@ -332,3 +337,9 @@ width: auto;
     }
 
 
+h2{
+    font-family: 'Cinzel', serif;
+}
+h3{
+    font-family: 'Cinzel', serif;
+}
