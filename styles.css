@@ -31,6 +31,7 @@
 }
 .menu li a:hover{
     background: #7a7a7a;
+    font-weight: bold;
 }
 
 
@@ -58,12 +59,13 @@ width: auto;
 
 .dogPicture{
     display: flex;
-    margin-left: 430px;
+    margin-left: 33%;
+    margin-right: 33%;
     margin-top: 45px;
     margin-bottom: 100px;
     height: 500px;
     width: 350px; 
-}
+} 
 
 
 /* ############# social media ############# */
@@ -81,39 +83,15 @@ width: auto;
     height: 80px;
     
 }
-/* .logoInsta{
-    grid-area: logoInsta; 
-}
 
-.logoInsta img{
-    height: 100px;
-    width: 100px;
-} */
 .logoInsta :hover{
     background: #7a7a7a;
 }
-/* 
 
-.logoTik{
-    grid-area: logoTik;
-} */
 .logoTik :hover{
     background: #7a7a7a;
 }
-/* 
-.logoTik img{
-    height: 100px;
-    width: 100px;
-}
 
-.logoYou{
-    grid-area: logoYou; 
-}
-
-.logoYou img{
-    height: 100px;
-    width: 100px;
-} */
 .logoYou :hover{
     background: #7a7a7a;
 }
