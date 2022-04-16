@@ -343,3 +343,7 @@ h2{
 h3{
     font-family: 'Cinzel', serif;
 }
+
+.container{
+    margin: 5%;
+}
