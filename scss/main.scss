@@ -1,0 +1,103 @@
+@import "variables";
+@import "header";
+@import "socialmedia";
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.background{
+    background-image: $gradientBackground;
+}
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    img{
+        width: auto;
+        }
+}
+
+
+.blog{
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding: 10px 150px;
+    font-size: 25px;
+    text-align: center;
+    border-bottom: 5px double black;
+}
+
+
+.dogPicture{
+    display: flex;
+    margin-left: 33%;
+    margin-right: 33%;
+    margin-top: 45px;
+    margin-bottom: 100px;
+    height: 500px;
+    width: 350px; 
+} 
+
+
+.form{
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    color: white;
+    background: #7a7a7a;
+    box-shadow: 5px 15px 30px #000;
+    p{
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+    
+}
+
+.field{
+    text-align: center;
+    background: #ebe9e9;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+}
+
+.button{
+    width: 100%;
+    background: black;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 15px;
+    font-size: 15px;
+}
+
+
+.gallery{
+    box-sizing: border-box;
+    img{
+        width: 100%;
+        filter: grayscale(100%);
+        transition: all 1s;
+        &:hover{
+            filter: none;
+            transform: scale(1.1);
+        }
+    }
+}
+
+.column{
+    flex: 25%;
+    padding: 15px;
+}
+
+.column img{
+    margin-top: 10px;
+}

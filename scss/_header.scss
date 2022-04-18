@@ -1,0 +1,24 @@
+.menu{
+    list-style: none;
+    padding: 0%;
+    background: white;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    li{
+        display: inline-block;
+        text-align: center;
+    }
+    li a{
+        text-decoration: none;
+        font-family: 'Cinzel', serif;
+        color: black;
+        font-size: 30px;
+        padding: 20px;
+        display: block;
+        &:hover{
+            background: $hover;
+            font-weight: bold;
+        }
+    }
+}
