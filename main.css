@@ -1,3 +1,14 @@
+/* bucles */
+.col-1 {
+  width: 100px; }
+
+.col-2 {
+  width: 200px; }
+
+.col-3 {
+  width: 300px; }
+
+/* condicionales */
 .menu {
   list-style: none;
   padding: 0%;
