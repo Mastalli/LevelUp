@@ -5,3 +5,42 @@ $menuFont: 'Cinzel', serif;
 $optionalMenuFont: Arial, Helvetica, sans-serif;
 
 $hover:  #7a7a7a;
+
+
+
+/* bucles */
+
+@for $i from 1 through 3 {
+    .col-#{$i}{ width: 100px * $i; }
+}
+
+/* condicionales */
+
+section{
+    @if $anchoTotal < 100px {
+        color: #fff;
+    } @else{
+        color: #0000;
+    }
+}
+
+/* each */
+
+@each $color in #fff, #0000 {
+    .#{$color}{
+        color: #{$color};
+    }
+}
+
+/* maps */
+
+$redes: (
+    whatsapp: green,
+    instagram: purple
+);
+
+@each $red, $color in $redes{
+    .btn--#{$red}{
+        background-color: $color;
+    }
+}
